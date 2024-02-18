@@ -9,10 +9,10 @@ export function App() {
   const StyledRating = styled(Rating)({
     "& .MuiRating-iconFilled": {
       color: "yello"
-      // color: "#ff6d75",
+      // color: "#ff6d75"
     },
     "& .MuiRating-iconHover": {
-      // color: "#ff3d47",
+      // color: "#ff3d47"
       color: "yello"
     },
   });
@@ -48,8 +48,6 @@ export function App() {
             <iframe
             height={'100%'}
             width={'100%'}
-              // width="540"
-              // height="280"
               src="https://www.youtube.com/embed/Ydi80YrCnPY?si=HmsntOU6_k7KVaw9"
               title="YouTube video player"
               frameBorder="0"
@@ -61,7 +59,7 @@ export function App() {
           <Typography variant="h5">Personality</Typography>
           <Typography>Daenerys is most often described as uncommonly beautiful, with a
                 long, pale silver-gold hair and purple eyes.[11] She is slender
-                and pale, although taller than some of her female ancestors.
+                and pale, although ta ller than some of her female ancestors.
                 Tales of Daenerys's beauty are numerous, and throughout the
                 novels she encounters countless suitors who seek her hand in
                 marriage, sometimes to gain control of her three dragons. She is
@@ -114,7 +112,6 @@ export function App() {
             </Grid>
           </Grid>
         </div>
-        
       </Container>
       </div>
     </>

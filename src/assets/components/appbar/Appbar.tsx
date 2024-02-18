@@ -8,13 +8,13 @@ import logo from '../../icon.png';
 function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{backgroundColor:'rgba(18,18,18,.09)'}}>
+      <AppBar position="static" style={{backgroundColor:'rgb(3, 102, 216)'}}>
         <Toolbar>
           <img src={logo} alt="" width={50} />
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 ,ml:2}}>
           Game of Thrones
           </Typography>
-          <Button color="inherit">Home</Button>
+          <Button color="inherit">HOME</Button>
           <Button color="inherit">STORY</Button>
           <Button color="inherit">GALLERY</Button>
           <Button color="inherit">CHARCTERS</Button>
